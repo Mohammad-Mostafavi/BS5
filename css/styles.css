@@ -1,0 +1,71 @@
+    html,
+    body {
+        height: 100%;
+        font-size: 1rem;
+    }
+    
+    .gradient {
+        background: rgb(2, 0, 36);
+        background: linear-gradient(85deg, rgba(2, 0, 36, 1) 0%, rgba(42, 205, 53, 1) 45%, rgba(0, 212, 255, 1) 100%);
+    }
+    
+    .page-header {
+        margin-top: 4rem;
+        font-family: 'Open Sans', sans-serif;
+    }
+    
+    .feature {
+        color: white;
+    }
+    
+    .feature ul {
+        padding-left: 2rem;
+        list-style-type: none;
+    }
+    
+    .feature ul li {
+        padding-left: 2rem;
+        background-image: url(../img/check.svg);
+        background-repeat: no-repeat;
+        line-height: 2rem;
+    }
+    
+    .icon {
+        color: black;
+        height: 5rem;
+        width: 5rem;
+        font-size: 2em;
+        border-radius: 100%;
+        display: inline-flex;
+        align-items: center;
+        justify-content: center;
+    }
+    
+    .gallery {
+        background-color: rgb(199, 194, 194);
+        margin-top: 2rem;
+    }
+    
+    .gallery img {
+        border-radius: 5%;
+    }
+    
+    .services {
+        color: white;
+    }
+    
+    .contact {
+        margin-left: 3rem;
+    }
+    
+    .footer {
+        color: white;
+        font-size: 1rem;
+        padding: 1rem;
+        margin: 0;
+    }
+    
+    a {
+        color: red;
+        text-decoration: none;
+    }
